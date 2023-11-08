@@ -23,14 +23,14 @@ public class Main {
         if (client == ios && condition) {
             System.out.println("Установите  версию приложения для iOS по ссылке");
         } else if (client == ios && clientDeviceYear <= 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+            System.out.println("Установите  версию приложения для iOS по ссылке");
 
             {
                 if (client == android && (condition)) {
                     System.out.println("Установите  версию приложения для Android по ссылке");
                 } else if (client == android && clientDeviceYear <= 2015) {
                     {
-                        System.out.println("Установите облегченную версию приложения для Android по ссылке");
+                        System.out.println("Установите версию приложения для Android по ссылке");
                     }
                 }
             }
@@ -38,7 +38,7 @@ public class Main {
     }
 
     public static void task3() {
-        var deliveryDistance = 33;
+        var deliveryDistance = 100;
         countNames(deliveryDistance);
     }
 
