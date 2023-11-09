@@ -41,6 +41,7 @@ public class Main {
         var deliveryDistance = 100;
         countNames(deliveryDistance);
     }
+
     private static int countNames(int deliveryDistance) {
         if (deliveryDistance < 20) {
             return 1;
